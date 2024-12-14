@@ -1,0 +1,79 @@
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #4CAF50; /* Hijau */
+    color: blue; /* Warna tulisan biru */
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Susunan vertikal */
+}
+
+/* Judul Sidebar */
+.sidebar h4 {
+    color: white; /* Warna putih untuk judul */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Link Sidebar */
+.sidebar .nav-link {
+    display: block;
+    background-color: rgb(47, 153, 37); /* Latar belakang kotak putih */
+    color: rgb(255, 238, 0); /* Warna teks biru */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 10px; /* Jarak antar kotak */
+    border-radius: 5px; /* Sudut melengkung */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan ringan */
+    text-align: center; /* Teks berada di tengah */
+    font-weight: bold;
+}
+
+/* Hover Effect */
+.sidebar .nav-link:hover {
+    background-color: #367c39; /* Hijau lebih gelap */
+    color: white; /* Ubah teks menjadi putih */
+    transform: translateY(-2px); /* Efek mengangkat */
+    transition: all 0.3s ease; /* Animasi transisi */
+}
+
+/* Active/Selected Link */
+.sidebar .nav-link.active {
+    background-color: #367c39; /* Hijau lebih gelap */
+    color: white; /* Teks putih */
+}
+/* Sidebar.css */
+.sidebar {
+    width: 250px; /* Lebar Sidebar */
+    background-color: #3ba027;
+    color: white;
+    position: fixed;
+    height: 100vh; /* Sesuai tinggi layar */
+    z-index: 100; /* Menjamin berada di atas konten lainnya */
+  }
+/* Sidebar.css */
+.sidebar {
+    width: 250px;
+    background-color: #416e38;
+    color: white;
+    position: relative; /* Tambahkan posisi relatif agar tidak menutupi konten lain */
+    z-index: 105; /* Pastikan lebih tinggi dari elemen lain */
+  }
+  
+  /* Container utama untuk konten */
+  .content {
+    padding: 30px; /* Sesuaikan padding sesuai kebutuhan */
+    transition: margin-left 0.3s ease; /* Tambahkan efek transisi */
+  }
+  
+  .container {
+    overflow: auto; /* Pastikan konten tetap terlihat jika ada scroll */
+  }
+  

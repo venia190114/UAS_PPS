@@ -1,0 +1,100 @@
+.sidebar {
+  background-color: #f8f9fa;
+  height: 100vh;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-link {
+  color: #333;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+/* Styling untuk logo pada header */
+.header .logo img {
+  width: 10px;  /* Atur lebar logo */
+  height: 10px; /* Atur tinggi logo */
+  object-fit: contain; /* Menjaga proporsi gambar */
+  margin-right: 10px;  /* Memberi jarak dengan teks */
+  border-radius: 5px;  /* Opsional, jika ingin sudut gambar melengkung */
+}
+
+.header .logo h1 {
+  text-align: left; /* Menyelaraskan teks ke kiri */
+  margin: 0;        /* Menghapus margin bawaan */
+  padding: 0;       /* Menghapus padding bawaan */
+}
+/* Header Styling */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4CAF50; /* Warna hijau */
+  padding: 10px 20px;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Bagian Logo dan Tulisan */
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Bagian Admin Info */
+.admin-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.admin-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.admin-icon {
+  font-size: 24px;
+}
+
+.admin-text {
+  font-size: 16px;
+}
+
+.settings {
+  cursor: pointer;
+}
+
+.settings-icon {
+  font-size: 24px;
+}
+.container {
+  padding-left: 260px; /* Sesuaikan padding dengan lebar Sidebar */
+  transition: padding-left 0.3s ease;
+}
+

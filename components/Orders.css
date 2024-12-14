@@ -1,0 +1,22 @@
+.container-fluid {
+  padding: 20px;
+}
+
+.sidebar {
+  height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.card-header {
+  font-size: 1rem;
+}
+
+.table img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.text-end p {
+  font-size: 1.2rem;
+}
