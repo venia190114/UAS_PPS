@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+/* CSS untuk Sidebar dan Konten Utama */
+
+/* Wrapper untuk sidebar dan konten utama */
+.layout {
+  display: flex; /* Sidebar dan konten utama dalam satu baris */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px; /* Lebar sidebar */
+  height: 100vh; /* Tinggi penuh */
+  background-color: #4CAF50; /* Hijau */
+  color: white;
+  position: fixed; /* Tetap di sisi kiri */
+  top: 0;
+  left: 0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Konten Utama */
+.main-content {
+  margin-left: 250px; /* Beri ruang untuk sidebar */
+  padding: 20px;
+  width: calc(100% - 250px); /* Pastikan konten tidak melampaui layar */
+}

@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main-content {
+  margin-left: 250px; /* Sesuaikan dengan lebar sidebar */
+  padding: 20px;
+}
+.container {
+  padding-left: 260px; /* Sesuaikan padding dengan lebar Sidebar */
+  transition: padding-left 0.3s ease;
+}

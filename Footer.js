@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Footer() {
+const Footer = () => {
     return (
-        <footer>
-            <p>© 2024 GreenBite. All rights reserved.</p>
+        <footer className="bg-success text-white text-center p-3">
+            <p>&copy; 2024 Your Company. All Rights Reserved.</p>
         </footer>
     );
-}
+};
 
 export default Footer;
